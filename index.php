@@ -1,3 +1,13 @@
+<?php 
+
+/*
+
+* This template for displaying the header
+
+*/
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
