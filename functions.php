@@ -13,4 +13,4 @@ add_theme_support( 'title-tag');
 function shihab_css_js_file_calling(){
 
 }
-add_action('', 'shihab_css_js_file_calling')
+add_action('wp_enqueue_scripts', 'shihab_css_js_file_calling');
