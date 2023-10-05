@@ -6,4 +6,4 @@
 
 // Theme Title
 
-add_theme_support( $feature:string, $args:mixed )
+add_theme_support( 'title-tag');
