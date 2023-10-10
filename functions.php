@@ -6,7 +6,6 @@
 
 // Theme Title
 add_theme_support( 'title-tag');
-add_theme_support( 'title-tag');
 
 
 // Theme CSS and jQuery File calling
