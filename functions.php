@@ -23,8 +23,11 @@ function shihab_css_js_file_calling(){
     wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.js', array(), '5.3.2', 'true');
     wp_enqueue_script('main', get_template_directory_uri().'/js/main.js', array(), '1.0.0', 'true');
 }
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.js', array(), '5.3.2', 'true');
+    wp_enqueue_script('main', get_template_directory_uri().'/js/main.js', array(), '1.0.0', 'true');
+}
 
-add_action('wp_enqueue_scripts', 'shihab_css_js_file_calling'); 
 add_action('wp_enqueue_scripts', 'shihab_css_js_file_calling'); 
 
 
