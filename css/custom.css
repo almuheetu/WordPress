@@ -36,12 +36,18 @@ header area style
     display: inline-block;
     position: relative;
   }
+  #header_area .col-md-9 ul li a span{
+    display: block;
+    font-size: 12px;
+    font-family: 'Kaisei Decol', serif;
+  }
   #header_area .col-md-9 ul li a {
     color: #262626;
     padding: 20px 10px;
     display: block;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 16px;
   }
   #header_area .col-md-9 ul li a:hover {
     background: #ea1a70;
