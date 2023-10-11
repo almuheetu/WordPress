@@ -36,11 +36,12 @@ function shihab_customizar_register($wp_customize){
     ));
 
     $wp_customize->add_setting('shihab_logo', array(
-        'default' => get_bloginfo( 'template_directory') . '/img/logo/png',
+        'default' => get_bloginfo('template_directory') . '/img/logo.png',
     ));
 
-    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'shihab_logo', array(
-        'lable' => 'Logo Upload',
+    $wp_customize-> add_control(new WP_Customize_Image_Control($wp_customize, 'shihab_logo', array(
+        'label' => 'Logo Upload',
+        'description' => 'if you intersted to change or upload your logo , you can do it.',
         'setting' => 'shihab_logo',
         'section' => 'shihab_header_area',
     ) ));
