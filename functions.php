@@ -75,6 +75,23 @@ function shihab_customizar_register($wp_customize){
           'center_menu' => 'Center Menu',
         ),
       ));
+
+  // Footer Option
+  $wp_customize->add_section('shihab_footer_option', array(
+    'title' => __('Footer Option', 'Almuheetu'),
+    'description' => 'If you interested to change or update your footer settings you can do it.'
+  ));
+
+  $wp_customize->add_setting('ali_copyright_section', array(
+    'default' => '&copy; Copyright 2021 | Procoder BD',
+  ));
+
+  $wp_customize-> add_control('ali_copyright_section', array(
+    'label' => 'Copyright Text',
+    'description' => 'If need you can update your copyright text from here',
+    'setting' => 'ali_copyright_section',
+    'section' => 'ali_footer_option',
+  ));
 }
 
 add_action('customize_register', 'shihab_customizar_register');
