@@ -26,6 +26,12 @@ function shihab_css_js_file_calling(){
 
 add_action('wp_enqueue_scripts', 'shihab_css_js_file_calling'); 
 
+//Google Fonts Enqueue
+function shihab_add_google_fonts(){
+    wp_enqueue_style('shihab_google_fonts', 'https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Oswald&display=swap', false);
+  }
+  add_action('wp_enqueue_scripts', 'shihab_add_google_fonts');
+
 
 // Theme Function 
 function shihab_customizar_register($wp_customize){
