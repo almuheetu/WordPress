@@ -32,7 +32,23 @@
                     <li><a href="">Download</a></li>
                     <li><a href="">Projects</a></li>
                     <li><a href="">Service</a>
-               
+                    <ul>
+                     <li><a href="">Dropdown Menu</a></li>
+                     <li><a href="">Dropdown Menu</a></li>
+                     <li><a href="">Dropdown Menu</a>
+                         <ul>
+                            <li><a href="">Dropdown Menu</a></li>
+                            <li><a href="">Dropdown Menu</a></li>
+                            <li><a href="">Dropdown Menu</a></li>
+                            <li><a href="">Dropdown Menu</a></li>
+                            <li><a href="">Dropdown Menu</a></li>
+                            <li><a href="">Dropdown Menu</a></li>
+                         </ul>
+                     </li>
+                        <li><a href="">Dropdown Menu</a></li>
+                        <li><a href="">Dropdown Menu</a></li>
+                        <li><a href="">Dropdown Menu</a></li>
+                    </ul>
                     </li>
                     <li><a href="">FAQ</a></li>
                     <li><a href="">Contact US</a></li>
