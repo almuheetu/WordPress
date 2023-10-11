@@ -29,5 +29,21 @@ add_action('wp_enqueue_scripts', 'shihab_css_js_file_calling');
 
 // Theme Function 
 function shihab_customizar_register($wp_customize){
-    $wp_customize->
+    $wp_customize->add_section('shihab_header_area', array(
+        'title' =>__('Header Area', 'Almuheetu'),
+        'description' => 'if you intersted to update your header area, you can do it here.'
+
+    ));
+
+    $wp_customize->add_setting('shihab_logo', array(
+        'default' => get_bloginfo( 'template_directory') . '/img/logo/png',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'shihab_logo', array(
+        'lable' => 'Logo Upload',
+        'setting' => 'shihab_logo',
+        'section' => 'shihab_header_area',
+    ) ));
 }
+
+add_action('customize_register', 'shihab_customizar_register');
