@@ -35,6 +35,7 @@ function shihab_add_google_fonts(){
 
 // Theme Function 
 function shihab_customizar_register($wp_customize){
+    //Header Area Function
     $wp_customize->add_section('shihab_header_area', array(
         'title' =>__('Header Area', 'Almuheetu'),
         'description' => 'if you intersted to update your header area, you can do it here.'
@@ -51,6 +52,8 @@ function shihab_customizar_register($wp_customize){
         'setting' => 'shihab_logo',
         'section' => 'shihab_header_area',
     ) ));
+
+    // Menu Position Option
 }
 
 add_action('customize_register', 'shihab_customizar_register');
