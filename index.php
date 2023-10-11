@@ -24,7 +24,20 @@
                 <a href=""><img src="<?php echo get_theme_mod('shihab_logo'); ?>" alt="">
             </a>
             </div>
-            <div class="col-md-9"></div>
+            <div class="col-md-9">
+                <ul id="nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Media</a></li>
+                    <li><a href="">Download</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Service</a>
+               
+                    </li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Contact US</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
