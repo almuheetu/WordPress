@@ -54,6 +54,27 @@ function shihab_customizar_register($wp_customize){
     ) ));
 
     // Menu Position Option
+    $wp_customize->add_section('shihab_menu_option', array(
+        'title' => __('Menu Position Option', 'Almuheetu'),
+        'description' => 'If you interested to change your menu position you can do it.'
+      ));
+    
+      $wp_customize->add_setting('shihab_menu_position', array(
+        'default' => 'right_menu',
+      ));
+    
+      $wp_customize-> add_control('shihab_menu_position', array(
+        'label' => 'Menu Position',
+        'description' => 'Select your menu position',
+        'setting' => 'shihab_menu_position',
+        'section' => 'shihab_menu_option',
+        'type' => 'radio',
+        'choices' => array(
+          'left_menu' => 'Left Menu',
+          'right_menu' => 'Right Menu',
+          'center_menu' => 'Center Menu',
+        ),
+      ));
 }
 
 add_action('customize_register', 'shihab_customizar_register');
