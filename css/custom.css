@@ -4,6 +4,8 @@ Common Css
 
 body {
     font-family: 'Kaisei Decol', serif;
+    font-size: 15px;
+    line-height: 1.5em;
 }
 
 h1,h2.h3.h4.h5.h6 {
@@ -55,6 +57,7 @@ header area style
     text-align: left;
     top: 62px;
     width: 200px;
+    z-index: 99999;
   }
   #header_area .col-md-9 ul li:hover ul {
     left: 0px;
