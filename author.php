@@ -31,7 +31,7 @@
     </div>
 </header>
 
-<h1>This is archive template</h1>
+<h1>This is author template</h1>
 
 <section id="body_area">
  <div class="container">
