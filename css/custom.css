@@ -34,7 +34,7 @@ header area style
 }
 
 #header_area {
-    padding: 15px 0;
+    padding: 0px 0 15px;
 }
 #header_area .col-md-9 ul {
     font-family: 'Oswald', sans-serif;
