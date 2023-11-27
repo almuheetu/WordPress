@@ -1,4 +1,8 @@
-
+<?php 
+/*
+*The main templete file
+*/
+get_header(); ?>
 
 <section id="body_area">
  <div class="container">
