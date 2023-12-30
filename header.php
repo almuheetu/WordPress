@@ -18,15 +18,6 @@
 <body <?php body_class(); ?>>
     
 <header id="header_area" class="<?php echo get_theme_mod('shihab_menu_position'); ?>">
-<div id="notice">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Some notifications</p>
-      </div>
-    </div>
-  </div>
-</div>
     <div class="container">
         <div class="row">
             <div class="col-md-3">
