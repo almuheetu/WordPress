@@ -13,6 +13,9 @@ get_header(); ?>
                 while (have_posts()) : the_post();
             ?>
             <div class="blog_area">
+                <div class="post_thumb">
+                    
+                </div>
 
             <?php the_content(); ?>
             </div>
