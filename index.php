@@ -14,7 +14,7 @@ get_header(); ?>
             ?>
             <div class="blog_area">
                 <div class="post_thumb">
-                    
+                    <?php echo the_post_thumbnail(); ?>
                 </div>
 
             <?php the_content(); ?>
