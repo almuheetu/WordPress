@@ -32,6 +32,9 @@ get_header(); ?>
         <div class="col-md-3">
             <h2>this is siteber area</h2>
         </div>
+        <div class="col-md-3">
+            <h2>this is siteber area</h2>
+        </div>
     </div>
  </div>
 </section>
